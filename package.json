@@ -1,0 +1,16 @@
+{
+  "name": "protractor_js",
+  "version": "1.0.0",
+  "description": "1. create package.json",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "node_modules/.bin/webdriver-manager update && node_modules/.bin/webdriver-manager --detach start",
+    "test": "node_modules/protractor/bin/protractor config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.4.0",
+    "protractor": "^5.4.2"
+  }
+}
